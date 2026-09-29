@@ -1,0 +1,12 @@
+# 核心抓取（ranker.py）需要
+websocket-client>=1.7.0
+
+# 图形界面（ranker_gui.py）
+customtkinter>=5.2.0
+
+# PDF 转长图工具（pdf2img.py）
+pypdfium2>=4.30.0
+Pillow>=10.0.0
+
+# SOCKS5 代理支持，可选；不装就只能用 HTTP 代理或直连
+PySocks>=1.7.1
